@@ -1,11 +1,21 @@
 {
-  "name": "render-node-api",
+  "name": "mmf",
   "version": "1.0.0",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.18.2"
-  }
+    "express": "^4.22.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakamotoyuma/MMF.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sakamotoyuma/MMF/issues"
+  },
+  "homepage": "https://github.com/sakamotoyuma/MMF#readme",
+  "license": "ISC"
 }
